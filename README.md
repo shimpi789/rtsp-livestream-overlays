@@ -71,13 +71,13 @@ source venv/bin/activate
 
 Step 3: Install dependencies
 ```bash
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 
 If requirements.txt not present:
 ```bash
-pip install flask flask-cors flask-pymongo
+python3 -m pip install flask flask-cors flask-pymongo
 ```
 
 Step 4: Configure MongoDB
@@ -88,7 +88,7 @@ app.config["MONGO_URI"] = "mongodb+srv://<username>:<password>@cluster0.mongodb.
 ```
 Step 5: Run backend server
 ```bash
-python app.py
+python3 app.py
 ```
 
 
@@ -136,6 +136,7 @@ Play livestream
 Add overlays and interact
 
 🔗 Providing or Changing RTSP URL
+Note: Browsers do not support RTSP streams directly. RTSP streams must be converted to HLS before playback in the browser.
 
 In the UI:
 
