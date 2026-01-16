@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/shimpirajawat/Desktop/video streaming project/rtsp-frontend/backend/venv"
+VIRTUAL_ENV="/Users/shimpirajawat/Desktop/video streaming project/backend/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
